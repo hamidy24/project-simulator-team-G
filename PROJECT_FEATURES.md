@@ -10,3 +10,4 @@
 - Student age
 - Student CGPA
 - Student department
+- Student email
