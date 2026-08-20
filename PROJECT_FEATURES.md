@@ -6,3 +6,4 @@
 - Student department
 - Student email
 - Student phone number
+- Student address
