@@ -9,3 +9,4 @@
 - Student address
 - Student age
 - Student CGPA
+- Student department
