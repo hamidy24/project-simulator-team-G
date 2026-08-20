@@ -1,0 +1,20 @@
+name: Trello Integration
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  update_trello:
+    # This ensures the action only runs if the PR was actually merged, not just closed
+    if: github.event.pull_request.merged == true 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Connect to Trello
+        uses: danteignacio/github-to-trello@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRELLO_API_KEY: ${{ secrets.TRELLO_API_KEY }}
+          TRELLO_API_TOKEN: ${{ secrets.TRELLO_API_TOKEN }}
+        with:
+          # This tells the action to look for the Trello card URL in your Pull Request description
+          require_trello_card: true
