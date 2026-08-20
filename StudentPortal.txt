@@ -1,11 +1,7 @@
 struct Student
 {
- int id;
- char name[50];
- int age;
-feature/T-03
- float cgpa;
- char department[50];
-=======
-dev
+    int id;
+    char name[50];
+    int age;
 };
+
