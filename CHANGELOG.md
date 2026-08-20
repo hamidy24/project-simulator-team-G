@@ -9,3 +9,4 @@
 - Added student phone number.
 - Added student address.
 - Added student age.
+- Added student cgpa.

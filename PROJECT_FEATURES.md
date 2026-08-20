@@ -8,3 +8,4 @@
 - Student phone number
 - Student address
 - Student age
+- Student CGPA
