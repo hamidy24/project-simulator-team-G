@@ -14,3 +14,6 @@ The system now stores the department.
 ## Student Age
 The system now stores the age of every student.
 dev
+
+## Student Email
+The system now stores the email.
