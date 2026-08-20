@@ -7,3 +7,4 @@
 - Student email
 - Student phone number
 - Student address
+- Student age

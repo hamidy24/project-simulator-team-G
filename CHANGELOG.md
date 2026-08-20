@@ -8,3 +8,4 @@
 - Added student email.
 - Added student phone number.
 - Added student address.
+- Added student age.
