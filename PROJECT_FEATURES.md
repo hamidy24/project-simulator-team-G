@@ -5,3 +5,4 @@
 - Student CGPA
 - Student department
 - Student email
+- Student phone number
